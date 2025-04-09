@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+}
+
+.contact-info p,
+.summary p,
+.education p,
+.experience p,
+.skills ul {
+    margin: 10px 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #eaeaea;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
