@@ -13,10 +13,11 @@ body {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.contact-info{
+
+.contact-info {
     max-width: 800px;
     margin: 1px auto;
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 1px;
     background: #fff;
     text-align: center;
@@ -25,30 +26,28 @@ body {
 
 header {
     position: relative;
-    text-align: center; /*text centered */
+    text-align: center;
     margin-bottom: 10px;
 }
 
 /* Profile photo styling */
 .profile-photo {
-    width: 120px; /* size of photo */
-    height: 120px; /* square */
-    border-radius: 50%; /* Makes photo circular */
-    object-fit: cover; /*scales properly */
-    margin: 0 auto 10px; /* Center photo, add spacing below */
-    display: block; /* block element */
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 10px;
+    display: block;
     position: absolute;
     top: 20px;
     right: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 header h1 {
     margin: 0;
     font-size: 36px;
 }
-
 
 header h6 {
     margin: 0;
@@ -90,6 +89,22 @@ section ul {
     margin-left: 20px;
 }
 
+/* Left-aligned sections */
+.sprak, .experience, .education {
+    text-align: left;
+}
+
+.sprak ul, .experience ul, .education ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sprak ul li, .experience ul li, .education ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
 /* Contact info styling */
 .contact-info p {
     margin: 5px 0;
@@ -111,26 +126,6 @@ section ul {
     font-size: 16px;
     line-height: 1.8;
     color: #444;
-}
-
-/* Education and experience styling */
-.education div, .experience div {
-    margin-bottom: 15px;
-}
-
-.education p, .experience p {
-    margin: 5px 0;
-    font-size: 16px;
-    color: #555;
-}
-
-.education p strong, .experience p strong {
-    color: #007BFF;
-}
-
-.education p em, .experience p em {
-    font-style: italic;
-    color: #666;
 }
 
 /* Skills styling */
