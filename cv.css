@@ -32,16 +32,14 @@ header {
 
 /* Profile photo styling */
 .profile-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto 10px;
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 120px; /* Size of the photo */
+    height: 120px; /* Square dimensions */
+    border-radius: 50%; /* Makes the photo circular */
+    object-fit: cover; /* Ensures the image scales properly */
+    position: absolute; /* Position it in the header */
+    top: 0px; /* Adjust vertical position */
+    left: 20px; /* Adjust horizontal position */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 header h1 {
@@ -52,13 +50,13 @@ header h1 {
 header h6 {
     margin: 0;
     font-size: 10px;
-    color: #333;
+    color: #666;
 }
 
 header h2 {
     margin: 0;
     font-size: 14px;
-    color: #333;
+    color: #666;
 }
 
 header p {
@@ -73,7 +71,7 @@ section {
 
 section h2 {
     font-size: 20px;
-    color: #222;
+    color: #434343;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 15px;
