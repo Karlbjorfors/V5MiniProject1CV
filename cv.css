@@ -90,7 +90,7 @@ section ul {
 }
 
 /* Left-aligned sections */
-.sprak, .experience, .education {
+.experience, .education {
     text-align: left;
 }
 
